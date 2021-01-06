@@ -1,7 +1,10 @@
 
 body,html{
-    padding: 0;
+    padding-right:0; 
+    padding-left:0; 
     margin: 0;
+    color: white;
+    width: 100%;
 }
 
 body{
@@ -44,8 +47,6 @@ a:hover {
     border: 1px;
     color: white;
 }
-
-
 
 /* haut de la page   */
 
@@ -173,6 +174,11 @@ a:hover {
     color:white;
 }
 
+.interieurban .btn-custom:hover {
+    background-color:  #2E4159 ;
+    color:white;
+}
+
 
 /* corps de page */
 
@@ -182,35 +188,6 @@ a:hover {
     margin-top: 20px;
 }
 
-.droite {
-    background-color: #2E4159;
-    text-align: center;
-    color: #F2D5BB;
-   
-    
-    
-}
-
-.gauche {
-    background-color: #84B1D9;
-    
-    text-align: center;
-    color: #F2D5BB;
-    
-}
-.gauche .droite h1 {
-    margin-top: 10px;
-}
-
-.gauche .btn-custom {
-    background-color:  #2E4159;
-    color:#F2D5BB;
-}
-
-.droite .btn-custom {
-    background-color:  #84B1D9 ;
-    color:#F2D5BB;
-}
 
 ul li {
     text-decoration: none;
@@ -290,3 +267,144 @@ form {
   
 }
 
+.imgfor {
+    width: 100%;
+    margin-right: 0;
+}
+
+
+#essai {
+    width: 100%;
+    max-width: 100%;
+    background-color: #2E4159;
+}
+
+.a {
+    float: right;
+    width: 100%;
+}
+
+.b {
+    float: left;
+    width: 100%;
+}
+
+.imgessai {
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.presentation {
+    background-color: #84B1D9;
+    font-size: 2em;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.programme {
+    text-align: center;
+    background-color: #84B1D9;
+
+}
+
+.presenationIUT {
+    background-color: #84B1D9;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#localiserIUT {
+    background-color: #84B1D9;
+    text-align: center;
+}
+
+iframe {
+    margin-top: 0;
+}
+
+#BUT iframe {
+    width: 100%;
+    height: 30%;
+    
+}
+
+.centrerTitreArticle {
+    text-align: center;
+}
+
+.logoBUT {
+    width: 100%;
+}
+
+.azerty {
+    width: 100%;
+}
+
+
+.paginationArticle {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+#identification {
+    background-color: #84B1D9;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#identification input {
+    border-radius: 10px;
+}
+
+#identification .custom {
+    background-color: #2E4159;
+    color: #ffffff;
+}
+
+#identification .custom:hover {
+    background-color: #2E4159;
+    color: #F2D5BB;
+}
+
+#formulaireEntreprise {
+
+    background-color: #84B1D9;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#formulaireEntreprise input {
+    width: 50%;
+}
+
+#formulaireEntreprise textarea {
+    width: 50%;
+}
+
+
+#formulaireEntreprise .custom {
+    background-color: #2E4159;
+    color: #ffffff;
+}
+
+#formulaireEntreprise .custom:hover {
+    background-color: #2E4159;
+    color: #F2D5BB;
+}
+
+#formulaireEntreprise input {
+    border-radius: 10px;
+}
