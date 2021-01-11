@@ -5,6 +5,7 @@ body,html{
     margin: 0;
     color: white;
     width: 100%;
+    
 }
 
 body{
@@ -279,6 +280,8 @@ form {
     background-color: #2E4159;
 }
 
+
+
 .a {
     float: right;
     width: 100%;
@@ -309,10 +312,12 @@ h2 {
 }
 
 .programme {
+
     text-align: center;
     background-color: #84B1D9;
 
 }
+
 
 .presenationIUT {
     background-color: #84B1D9;
@@ -415,4 +420,36 @@ iframe {
 
 .btn-localisation:hover {
     color: #F2D5BB;
+}
+
+#temoignage {
+    background-color: #84B1D9;
+    text-align: center;
+}
+
+#temoignage img {
+    width: 30%;
+}
+
+#testimony img {
+    width: 30%;
+}
+
+#testimony {
+    background-color: #84B1D9;
+    text-align: center;
+}
+
+.image-ronde{
+    width : 150px; height : 150px;
+    
+    -moz-border-radius : 75px;
+    -webkit-border-radius : 75px;
+    border-radius : 75px;
+    
+}
+
+select {
+    border-radius: 20px;
+    background-color: #ffffff;
 }
