@@ -441,11 +441,8 @@ iframe {
 }
 
 .image-ronde{
-    width : 150px; height : 150px;
-    
-    -moz-border-radius : 75px;
-    -webkit-border-radius : 75px;
-    border-radius : 75px;
+    width : 150px;
+    clip-path:ellipse(50% 50%);
     
 }
 
