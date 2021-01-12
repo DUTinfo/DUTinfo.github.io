@@ -1,0 +1,7 @@
+User-Agent:*
+Disallow:/indexlogin.html
+Disallow:/indexloginEN.html
+Disallow:/indexEntreprise.html
+Disallow:/indexEntrepriseEN.html
+Sitemap:
+https://dutinfo.github.io/index.html
